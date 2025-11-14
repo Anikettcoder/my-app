@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+:root {
+    --p-color: #202020;
+    --s-color: #ecf1f4;
+    --p-fontColor: whitesmoke;
+    --p-font : Montserrat, sans-serif;
+}
+
+body {
+    background-color: var(--s-color);
+    color: var(--s-fontColor);
+}
+.top-txt{
+    background-color: var(--p-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+.head-container p{
+    font-family: var(--p-font);
+    font-size: 0.8rem;
+    margin-left: 6rem;
+}
+.sign-in-up{
+    margin-right: 6rem;
+}
+.navbar{
+    background-color: #020202;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navMenu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.logo img{
+    height: 4rem;
+}
