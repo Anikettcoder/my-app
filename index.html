@@ -4,90 +4,84 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Trophy</title>
+  <title>Sidh Trophies</title>
   <link rel="stylesheet" href="/my-app/src/style.css">
   <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 </style>
-  <script type="module" src="/src/main.js"></script>
+  <script type="module" src="src/main.js"></script>
 </head>
 <body>
-  <!-- Add a header section for the navbar -->
-  <header class="section-slide">
-    <section class="top-txt">
-      <div class="head-container">
-        <p>Free shipping on all orders, best prices guaranteed!</p>
-      </div>
-      <div class="sign-in-up">
-        <a href="#sign-in">Sign In</a>
-        <a href="#sign-up">Sign Up</a>
-      </div>
-    </section>
-  </header>
-
   <!-- Navigation Bar -->
-  <nav class="navbar">
-    <div class="logo">
-      <a href="index.html">
-        <img src="/my-app/public/Sidh Trophies Logo.png" alt="Company Logo">
-      </a>
-    </div>
-    <div class="navMenu">
+ <header class="navbar">
+    <nav>
+       <ul class="left-menu">
+           <li class="nav-item">
+             <a href="/" class="nav-link">Home</a>
+           </li>
+           <li class="nav-item">
+             <a href="product.html" class="nav-link">Products</a>
+           </li>
+           <li class="nav-item">
+             <a href="about.html" class="nav-link">About</a>
+           </li>
+           <li class="nav-item">
+             <a href="journal.html" class="nav-link">Journal</a>
+           </li>
+       </ul>
 
-      <ul>
-        <li class="nav-item">
-          <a href="/" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="about.html" class="nav-link">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="product.html" class="nav-link">Products</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link" >Contact</a>
-        </li>
-        <li class="nav-item">
-          <a href="add-to-cart.html"class="nav-link add-to-cart-button" id="cart-value"> 
-            <i class="fa-solid fa-cart-shopping"></i>
-          </a>
-        </ul>
-      </div>
-  </nav> 
-<main>
-  <!-- ======= hero section =======   -->
-  <section class="section-hero">
-    <!--hero section content-->
-    <section class="hero-container grid-two-cols">
-      <div class="hero-content">
-        <h1>Welcome to Our Store</h1>
-        <p>Discover the best products at unbeatable prices. Shop now and enjoy exclusive deals!</p>
-        <a href="product.html" class="btn-hero">Shop Now</a>
-      </div>
-      <!--hero section image-->
-      <div class="hero-image">
-        <img src="/my-app/public/award-ribbon-trophy-medal-clip-art-winner-png-transparent-images-c2f813f13047c201b03b22936c8bdf2d.png">
-      </div>
-  </section>
+       <div class="logo-div">
+        <img class="logo" src="/my-app/public/Logo.png" alt="Company Logo">
+       </div>
+
+       <ul class="right-menu">
+          <li class="nav-item">Search</li>
+          <li class="nav-item">Account</li>
+          <li class="nav-item">Wishlist</li>
+          <li class="nav-item">
+            <a href="add-to-cart.html"class="nav-link add-to-cart-button" id="cart-value"> 
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+          </li>
+       </ul>
+     </nav>
+   </header> 
+   
+   <!-- HERO SECTION -->
+    <section class="hero">
+        <img src="/my-app/public/background2.jpeg" class="hero-bg">
+
+        <div class="hero-content">
+            <h1>Welcome <br> To Sidh Trophies </h1>
+            <p>“Where Achievement Meets Craftsmanship.”</p>
+            <button class="cta-btn">Shop Now</button>
+        </div>
+        <!-- Slider Dots -->
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
 
   <section class="cards">
 <!-- card-1 -->
-    <div class="card-content1">
-      <div class="card1-container"> 
+    <div class="card-content">
+      <div class="card-container">
         <div class="card1">
           <h5>NEW YEAR SALE</h5>
           <p>Get And Extra 10% off!</p>
           <a href="product.html" class="btn-card1">Shop Now</a>
         </div>
         <div class="card-img">
-          <img src="" alt="">
+          <img src="/my-app/public/card1_img.png" alt="">
         </div>
       </div>
     </div>
     
 <!-- card-2 -->
-    <div class="card-content2">
-      <div class="card2-container"> 
+    <div class="card-content">
+      <div class="card-container">
         <div class="card2">
           <h5>NEW YEAR SALE</h5>
           <p>Get And Extra 10% off!</p>
@@ -100,8 +94,8 @@
     </div>
 
 <!-- card-3 -->
-    <div class="card-content3">
-      <div class="card3-container"> 
+    <div class="card-content">
+      <div class="card-container">
         <div class="card3">
           <h5>NEW YEAR SALE</h5>
           <p>Get And Extra 10% off!</p>
